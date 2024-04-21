@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAb9QwWER_cFmA2PQ4q8X6c_rQj5vr_dcs"
+        }
+      },
+      "package": "com.prastamaha.tp2mobileprogramming"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7e37846-32a2-4b28-bdf2-18a70745b8e6"
+      }
     }
   }
 }
