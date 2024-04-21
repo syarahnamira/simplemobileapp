@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
-import { Button } from '../components/button';
+import { CustomButton } from '../components/CustomButton';
 
 export function HomeScreen() {
     const navigation = useNavigation();
@@ -15,14 +15,14 @@ export function HomeScreen() {
                 <Text>Dewa Putu Prasta Maha Gangga</Text>
                 <Text>2402011896 (TZCA)</Text>
                 <StatusBar style="auto" />
-                <Button
+                <CustomButton
                     title="Data Diri"
                     onPress={() => navigation.navigate('Form Data Diri')}
-                ></Button>
-                <Button
+                ></CustomButton>
+                <CustomButton
                     title="Maps"
                     onPress={() => navigation.navigate('Maps')}
-                ></Button>
+                ></CustomButton>
             </View>
         </SafeAreaProvider>
     )
